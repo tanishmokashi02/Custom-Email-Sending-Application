@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Email Dashboard</title>
+</head>
+<body>
+    <h1>Email Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Delivery Status</th>
+                <th>Opened</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for email in emails %}
+            <tr>
+                <td>{{ email.company_name }}</td>
+                <td>{{ email.email }}</td>
+                <td>{{ email.status }}</td>
+                <td>{{ email.delivery_status }}</td>
+                <td>{{ email.opened }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
