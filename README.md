@@ -46,6 +46,6 @@ Custom Message Field (optional)
 
 Technologies Used:
 1) Backend: Python (Bottleneck)
-2) Front-End: HTMl
+2) Front-End: HTML
 3) Machine Learning: scikit-learn, TensorFlow/Keras (for ML models)
 4) APIs: Gmail API, SendGrid API, or custom email delivery APIs
